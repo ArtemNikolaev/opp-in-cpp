@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "У каждой эпохи свой язык" << std::endl;
+    __int64 bla = 1;
+    std::cout << sizeof(bla)  << std::endl;
     return 0;
 }
