@@ -6,8 +6,7 @@ int main() {
     int wdcount = 1;
     char ch = 'a';
     std::cout << "Vvedite stroky: ";
-    while (ch != '\r') {
-        ch = _getche();
+    while ((ch= _getche()) != '\r') {
         if (ch == ' ') {
             wdcount++;
         } else {
@@ -15,7 +14,7 @@ int main() {
         }
     }
 
-    std::cout << "\nSlov: " << wdcount << std::endl << "Bukv: " << (chcount-1) << std:: endl;
+    std::cout << "\nSlov: " << wdcount << std::endl << "Bukv: " << chcount << std:: endl;
 
     return 0;
 }
