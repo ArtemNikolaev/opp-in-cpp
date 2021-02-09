@@ -8,3 +8,4 @@ add_executable(ch03showprim ch03showprim.cpp)
 # ex
 add_executable(ex301 ex301.cpp)
 add_executable(ex302 ex302.cpp)
+add_executable(ex303 ex303.cpp)
